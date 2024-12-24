@@ -5,7 +5,7 @@ import trump from '../assets/trump.jpg'
 const Hero = ({ item }) => {
   return (
     <>
-      <div className="w-full flex  justify-center">
+      <div className="w-full flex flex-wrap  justify-center">
         {item.map((item, index) => (
           <div
             key={item.id}
