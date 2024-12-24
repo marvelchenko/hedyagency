@@ -4,32 +4,32 @@ import sidebg2 from "../assets/sidebg1.png";
 const OfficeWrap = () => {
   return (
     <>
-      <div className="w-full relative h-[160vh] text-white  ">
+      <div className="w-full relative flex flex-wrap text-white  ">
         <div className="flex justify-center">
           <div className="w-full md:w-[80vw] h-[50vh]  rounded-3xl bg-black">
-            <div className="absolute md:top-0 top-[4rem] md:left-[6rem]">
+            <div className="absolute md:top-0 top-[2rem] md:left-[6rem]">
               <img src={sidebg2} alt="" className="h-[20rem] md:h-[19.12rem]" />
             </div>
             <div className="w-full flex md:items-center md:justify-center p-4">
-              <div className="md:w-[50rem] w-full pt-8 md:p-4 md:ml-10 ml-[7rem] ">
-                <div className="flex gap-4 items-center mb-5 md:mb-4">
+              <div className="md:w-[50rem] w-full pt- md:p-4 md:ml-10 ml-[7rem] ">
+                <div className="flex gap-4 items-center mb-3 md:mb-4">
                   <h3 className="text-2xl">offre wrap</h3>
                   <p>img</p>
                 </div>
-                <p className="text-balance text-sm mb-8">
+                <p className="text-balance text-sm mb-2">
                   L'offre wrap vous permettra de lancer votre présence en ligne
                   avec un accompagnement stratégique sur-mesure, sans rogner sur
                   la qualité du design et du référencement.
                 </p>
 
-                <div className="md:flex md:items-center mb-8 md:gap-3">
+                <div className="md:flex md:items-center mb-4 md:gap-3">
                   <p>👉 Prestation SEO</p>
                   <p>👉 Design sur-mesure</p>
                   <p>👉 Stratégie digitale optimisée</p>
                 </div>
               </div>
             </div>
-            <button className="ml-[8rem] md:ml-[9rem] bg-gradient-to-r from-pink-500 to-blue-500 px-4 py-2 rounded-full">
+            <button className="text-[10px] font-semibold ml-[8rem] md:ml-[9rem] bg-gradient-to-r from-pink-500 to-blue-500 px-4 py-2 rounded-full">
               en savoir plus sur cette offre
             </button>
           </div>
@@ -55,7 +55,7 @@ const OfficeWrap = () => {
               👉 Le tout sur une base solide en référencement pour que vos
               futurs clients vous trouvent en quelques clics.
             </p>
-            <button className="text-sm font-semibold text-white bg-gradient-to-r from-pink-500 to-blue-500 px-4 py-2 rounded-full">
+            <button className="text-[10px] font-semibold text-white bg-gradient-to-r from-pink-500 to-blue-500 px-4 py-2 rounded-full">
               parlez-nous de votre besoin
             </button>
           </div>
@@ -72,13 +72,13 @@ const OfficeWrap = () => {
               👉 La force de cette offre c'est le réseau : chacun sa spécialité
               et à chaque projet son expertise.
             </p>
-            <button className="text-sm font-semibold text-white bg-gradient-to-r from-pink-500 to-blue-500 px-4 py-2 rounded-full">
+            <button className="text-[10px] font-semibold  text-white bg-gradient-to-r from-pink-500 to-blue-500 px-4 py-2 rounded-full">
               parlez-nous de votre besoin
             </button>
           </div>
         </div>
         <div className="text-center w-full md:pt-0 pt-5" >
-          <h1 className="text-gray-200 text-[70px] md:text-[175px] font-bold">ergonomie</h1>
+          <h1 className="text-gray-200 text-[50px] md:text-[175px] font-bold">ergonomie</h1>
         </div>
       </div>
     </>
