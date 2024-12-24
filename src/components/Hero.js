@@ -13,10 +13,10 @@ const Hero = ({ item }) => {
             style={{ backgroundImage: `url(${item.background})`, backgroundSize: '200%',  backgroundSize: 'contain', backgroundRepeat: 'no-repeat',  backgroundPosition: 'center', }}
           >
             
-            <div className="z-10 h-full w-full flex flex-col justify-center ml-4 md:ml-20">
-              <h3 className="text-white md:text-8xl text-7xl font-bold">digital</h3>
-              <h3 className="text-white md:text-8xl text-7xl font-bold">makers</h3>
-              <div className='text-black text-[10px] flex w-64 items-center p-2 rounded-lg gap-5 bg-white'>
+            <div className="z-10 h-full w-full flex flex-col justify-center md:ml-20">
+              <h3 className="text-white md:text-8xl text-6xl ml-4 font-bold">digital</h3>
+              <h3 className="text-white md:text-8xl text-6xl  ml-4 font-bold">makers</h3>
+              <div className='text-black ml-4  text-[10px] flex w-64 items-center p-2 rounded-lg gap-5 bg-white'>
                 <img src={trump} alt="" className='object-cover rounded-lg h-20'/>
                 <div>
                   <p className='font-semibold'>2min pour nous connaitre</p>
