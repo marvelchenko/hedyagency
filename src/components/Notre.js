@@ -5,10 +5,10 @@ import ax from '../assets/ax.png'
 const Notre = ({ notre }) => {
   return (
     <>
-      <div className="w-full h-[170vh] ">
-        <div className="w-full flex pt-16 justify-center ">
+      <div className="w-full flex flex-wrap ">
+        <div className="w-full flex flex-wrap pt-16 justify-center ">
           <div className="md:w-[80vw] rounded-2xl p-10 bg-black text-white text-wrap">
-            <div className="w-[80vw] flex justify-center text-center">
+            <div className="w-[80vw] flex flex-wrap justify-center text-center">
               <div className="w-[30rem]">
                 <h3 className="text-3xl font-semibold mb-4">
                   Notre méthodologie
