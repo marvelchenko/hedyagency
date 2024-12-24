@@ -5,7 +5,7 @@ const OfficeWrap = () => {
   return (
     <>
       <div className="w-full relative flex flex-wrap text-white  ">
-        <div className="flex justify-center">
+        <div className="flex w-full justify-center">
           <div className="w-full md:w-[80vw] h-[50vh]  rounded-3xl bg-black">
             <div className="absolute md:top-0 top-[2rem] md:left-[6rem]">
               <img src={sidebg2} alt="" className="h-[20rem] md:h-[19.12rem]" />
