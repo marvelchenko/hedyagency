@@ -5,7 +5,7 @@ import son from '../assets/son.png'
 const Services = ({items, itemx}) => {
   return (
     <>
-      <div className="w-full h-[140vh]  ">
+      <div className="w-full flex flex-wrap  ">
         <div className="w-full relative">
             <div className="hidden md:block absolute top-0 md:left-[0]">
             <img src={mother} alt="" className="h-[20rem] md:h-[23rem]" />
