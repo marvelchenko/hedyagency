@@ -8,7 +8,7 @@ import ball from '../assets/ball.png'
 const Footer = () => {
   return (
     <>
-      <div className='w-full p-5'>
+      <div className='w-full flex-wrap p-5'>
         <div className='  rounded-3xl p-1 bg-gradient-to-r from-pink-500 to-purple-500 '>
         <div className='rounded-3xl bg-white p-10'>
         <div className='flex flex-col md:flex-row justify-between text-[12px]'>
