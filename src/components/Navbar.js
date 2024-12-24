@@ -15,7 +15,7 @@ const Navbar = () => {
             <button className='md:mr-20 px-4 py-2 bg-gradient-to-r from-pink-500 to-blue-500 rounded-full shadow-md'>
             1h de conseil gratuit
             </button>
-            <button className='absolute z-10 px-3 py-3 bg-white rounded-full md:left-[62rem] top-[4rem] left-[19rem] md:top-1 shadow-md'>
+            <button className='absolute z-10 px-3 py-3 bg-white rounded-full md:left-[62rem] top-[4rem] left-[16rem] md:top-1 shadow-md'>
               <p>👋</p>
             </button>
             </div>
