@@ -6,8 +6,8 @@ const Notre = ({ notre }) => {
   return (
     <>
       <div className="w-full flex flex-wrap ">
-        <div className="w-full bg-green-500 flex flex-wrap pt-16 items-center justify-center ">
-          <div className="md:w-[80vw] w-full p-10 rounded-2xl bg-red-500 flex flex-col justify-center text-white text-wrap">
+        <div className="w-full flex flex-wrap pt-16 items-center justify-center ">
+          <div className="md:w-[80vw] w-full p-10 rounded-2xl bg-black flex flex-col justify-center text-white text-wrap">
             <div className="md:w-[80vw] flex flex-wrap justify-center text-center">
               <div className="w-[30rem]">
                 <h3 className="text-3xl font-semibold mb-4">
@@ -39,7 +39,7 @@ const Notre = ({ notre }) => {
           </div>
         </div>
         <div className="w-full ">
-          <div className="flex bg-red-500 w-full flex-wrap items-center gap-16 mt-10 justify-center">
+          <div className="flex w-full flex-wrap items-center gap-16 mt-10 justify-center">
             <div className="box1 w-[20rem] ">
               <h3 className="text-2xl font-semibold mb-4">Derniers projets</h3>
               <p className="mb-8">
