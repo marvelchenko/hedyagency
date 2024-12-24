@@ -9,7 +9,7 @@ const Hero = ({ item }) => {
         {item.map((item, index) => (
           <div
             key={item.id}
-            className="h-[95vh] w-[80vw] bg-cover bg-black bg-center relative rounded-bl-3xl rounded-br-3xl"
+            className="h-[50vh] md:h-[95vh] bg-cover bg-black bg-center relative rounded-bl-3xl rounded-br-3xl"
             style={{ backgroundImage: `url(${item.background})`, backgroundSize: '200%',  backgroundSize: 'contain', backgroundRepeat: 'no-repeat',  backgroundPosition: 'center', }}
           >
             
